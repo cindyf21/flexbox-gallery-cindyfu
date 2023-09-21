@@ -3,19 +3,23 @@ body, html{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(31, 86, 131);
 }
 .gallery-title{
-    font-size: 6rem;
+    font-size: 6.5rem;
     margin: 15px;
-    padding: 40px;
-    color: aliceblue;
-    text-align: center
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Skranji', cursive;
 }
 .card{
-    height: 50vh;
-    width: 26%;
-    background-color: lightgray;
+    height: 55vh;
+    width: 22vw;
+    background-color: rgb(255, 250, 210);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,15 +28,22 @@ body, html{
     border-radius: 5%;
 }
 .card-title{
-    font-size: 2.2rem;
-    margin: 0.5rem 0;
+    font-size: 2.3rem;
+    margin: 2.2rem 0;
     text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Skranji', cursive;
 }
 .card-img{
     width: 60%;
+    object-fit: cover;
+    text-align: center;
+    height: 70%
 }
-.card-price{
-    font-size: 1.2rem;
+.card-description{
+    font-size: 1.8rem;
+    text-align: center;
 }
 .container{
     display: flex;
